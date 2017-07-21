@@ -8,4 +8,4 @@ This example single-page application is a design study of having an icon palette
 
 ![Alt text](./DemoScreenShot.png?raw=true "Screenshot png")
 
-In order to run the demonstration app successfully. You need to install the font file. An excellent reference is http://codewithchris.com/common-mistakes-with-adding-custom-fonts-to-your-ios-app/.
+In order to run the demonstration app successfully. You may need to install the font file 'FontAwesome.ttf'. An excellent reference is http://codewithchris.com/common-mistakes-with-adding-custom-fonts-to-your-ios-app/.
