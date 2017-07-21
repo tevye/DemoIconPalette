@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B955E11E1F2181AA000EBC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E11D1F2181AA000EBC3F /* AppDelegate.swift */; };
+		B955E1201F2181AA000EBC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E11F1F2181AA000EBC3F /* ViewController.swift */; };
+		B955E1231F2181AA000EBC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B955E1211F2181AA000EBC3F /* Main.storyboard */; };
+		B955E1251F2181AA000EBC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B955E1241F2181AA000EBC3F /* Assets.xcassets */; };
+		B955E1281F2181AA000EBC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B955E1261F2181AA000EBC3F /* LaunchScreen.storyboard */; };
+		B955E1331F2181AA000EBC3F /* DemoIconPaletteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E1321F2181AA000EBC3F /* DemoIconPaletteTests.swift */; };
+		B955E13E1F2181AA000EBC3F /* DemoIconPaletteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E13D1F2181AA000EBC3F /* DemoIconPaletteUITests.swift */; };
+		B955E1551F2183B6000EBC3F /* ButtonDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E14C1F2183B6000EBC3F /* ButtonDialog.swift */; };
+		B955E1561F2183B6000EBC3F /* ButtonPaletteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E14D1F2183B6000EBC3F /* ButtonPaletteController.swift */; };
+		B955E1571F2183B6000EBC3F /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B955E14E1F2183B6000EBC3F /* FontAwesome.ttf */; };
+		B955E1581F2183B6000EBC3F /* FontAwesomeHome.ttx in Resources */ = {isa = PBXBuildFile; fileRef = B955E14F1F2183B6000EBC3F /* FontAwesomeHome.ttx */; };
+		B955E1591F2183B6000EBC3F /* FontAwesomeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E1501F2183B6000EBC3F /* FontAwesomeWrapper.swift */; };
+		B955E15A1F2183B6000EBC3F /* IconData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E1511F2183B6000EBC3F /* IconData.swift */; };
+		B955E15B1F2183B6000EBC3F /* PaletteProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E1521F2183B6000EBC3F /* PaletteProviderProtocol.swift */; };
+		B955E15C1F2183B6000EBC3F /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E1531F2183B6000EBC3F /* PopupView.swift */; };
+		B955E15D1F2183B6000EBC3F /* ScreenPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = B955E1541F2183B6000EBC3F /* ScreenPalette.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B955E12F1F2181AA000EBC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B955E1121F2181AA000EBC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B955E1191F2181AA000EBC3F;
+			remoteInfo = DemoIconPalette;
+		};
+		B955E13A1F2181AA000EBC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B955E1121F2181AA000EBC3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B955E1191F2181AA000EBC3F;
+			remoteInfo = DemoIconPalette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B955E11A1F2181AA000EBC3F /* DemoIconPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoIconPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B955E11D1F2181AA000EBC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B955E11F1F2181AA000EBC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B955E1221F2181AA000EBC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B955E1241F2181AA000EBC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B955E1271F2181AA000EBC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B955E1291F2181AA000EBC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B955E12E1F2181AA000EBC3F /* DemoIconPaletteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoIconPaletteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B955E1321F2181AA000EBC3F /* DemoIconPaletteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIconPaletteTests.swift; sourceTree = "<group>"; };
+		B955E1341F2181AA000EBC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B955E1391F2181AA000EBC3F /* DemoIconPaletteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoIconPaletteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B955E13D1F2181AA000EBC3F /* DemoIconPaletteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoIconPaletteUITests.swift; sourceTree = "<group>"; };
+		B955E13F1F2181AA000EBC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B955E14C1F2183B6000EBC3F /* ButtonDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDialog.swift; sourceTree = "<group>"; };
+		B955E14D1F2183B6000EBC3F /* ButtonPaletteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPaletteController.swift; sourceTree = "<group>"; };
+		B955E14E1F2183B6000EBC3F /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		B955E14F1F2183B6000EBC3F /* FontAwesomeHome.ttx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = FontAwesomeHome.ttx; sourceTree = "<group>"; };
+		B955E1501F2183B6000EBC3F /* FontAwesomeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeWrapper.swift; sourceTree = "<group>"; };
+		B955E1511F2183B6000EBC3F /* IconData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconData.swift; sourceTree = "<group>"; };
+		B955E1521F2183B6000EBC3F /* PaletteProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteProviderProtocol.swift; sourceTree = "<group>"; };
+		B955E1531F2183B6000EBC3F /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		B955E1541F2183B6000EBC3F /* ScreenPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenPalette.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B955E1171F2181AA000EBC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955E12B1F2181AA000EBC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955E1361F2181AA000EBC3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B955E1111F2181AA000EBC3F = {
+			isa = PBXGroup;
+			children = (
+				B955E14B1F2183B6000EBC3F /* SwiftButtonDialog */,
+				B955E11C1F2181AA000EBC3F /* DemoIconPalette */,
+				B955E1311F2181AA000EBC3F /* DemoIconPaletteTests */,
+				B955E13C1F2181AA000EBC3F /* DemoIconPaletteUITests */,
+				B955E11B1F2181AA000EBC3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B955E11B1F2181AA000EBC3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B955E11A1F2181AA000EBC3F /* DemoIconPalette.app */,
+				B955E12E1F2181AA000EBC3F /* DemoIconPaletteTests.xctest */,
+				B955E1391F2181AA000EBC3F /* DemoIconPaletteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B955E11C1F2181AA000EBC3F /* DemoIconPalette */ = {
+			isa = PBXGroup;
+			children = (
+				B955E11D1F2181AA000EBC3F /* AppDelegate.swift */,
+				B955E11F1F2181AA000EBC3F /* ViewController.swift */,
+				B955E1211F2181AA000EBC3F /* Main.storyboard */,
+				B955E1241F2181AA000EBC3F /* Assets.xcassets */,
+				B955E1261F2181AA000EBC3F /* LaunchScreen.storyboard */,
+				B955E1291F2181AA000EBC3F /* Info.plist */,
+			);
+			path = DemoIconPalette;
+			sourceTree = "<group>";
+		};
+		B955E1311F2181AA000EBC3F /* DemoIconPaletteTests */ = {
+			isa = PBXGroup;
+			children = (
+				B955E1321F2181AA000EBC3F /* DemoIconPaletteTests.swift */,
+				B955E1341F2181AA000EBC3F /* Info.plist */,
+			);
+			path = DemoIconPaletteTests;
+			sourceTree = "<group>";
+		};
+		B955E13C1F2181AA000EBC3F /* DemoIconPaletteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B955E13D1F2181AA000EBC3F /* DemoIconPaletteUITests.swift */,
+				B955E13F1F2181AA000EBC3F /* Info.plist */,
+			);
+			path = DemoIconPaletteUITests;
+			sourceTree = "<group>";
+		};
+		B955E14B1F2183B6000EBC3F /* SwiftButtonDialog */ = {
+			isa = PBXGroup;
+			children = (
+				B955E14C1F2183B6000EBC3F /* ButtonDialog.swift */,
+				B955E14D1F2183B6000EBC3F /* ButtonPaletteController.swift */,
+				B955E14E1F2183B6000EBC3F /* FontAwesome.ttf */,
+				B955E14F1F2183B6000EBC3F /* FontAwesomeHome.ttx */,
+				B955E1501F2183B6000EBC3F /* FontAwesomeWrapper.swift */,
+				B955E1511F2183B6000EBC3F /* IconData.swift */,
+				B955E1521F2183B6000EBC3F /* PaletteProviderProtocol.swift */,
+				B955E1531F2183B6000EBC3F /* PopupView.swift */,
+				B955E1541F2183B6000EBC3F /* ScreenPalette.swift */,
+			);
+			path = SwiftButtonDialog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B955E1191F2181AA000EBC3F /* DemoIconPalette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B955E1421F2181AA000EBC3F /* Build configuration list for PBXNativeTarget "DemoIconPalette" */;
+			buildPhases = (
+				B955E1161F2181AA000EBC3F /* Sources */,
+				B955E1171F2181AA000EBC3F /* Frameworks */,
+				B955E1181F2181AA000EBC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoIconPalette;
+			productName = DemoIconPalette;
+			productReference = B955E11A1F2181AA000EBC3F /* DemoIconPalette.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B955E12D1F2181AA000EBC3F /* DemoIconPaletteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B955E1451F2181AA000EBC3F /* Build configuration list for PBXNativeTarget "DemoIconPaletteTests" */;
+			buildPhases = (
+				B955E12A1F2181AA000EBC3F /* Sources */,
+				B955E12B1F2181AA000EBC3F /* Frameworks */,
+				B955E12C1F2181AA000EBC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B955E1301F2181AA000EBC3F /* PBXTargetDependency */,
+			);
+			name = DemoIconPaletteTests;
+			productName = DemoIconPaletteTests;
+			productReference = B955E12E1F2181AA000EBC3F /* DemoIconPaletteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B955E1381F2181AA000EBC3F /* DemoIconPaletteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B955E1481F2181AA000EBC3F /* Build configuration list for PBXNativeTarget "DemoIconPaletteUITests" */;
+			buildPhases = (
+				B955E1351F2181AA000EBC3F /* Sources */,
+				B955E1361F2181AA000EBC3F /* Frameworks */,
+				B955E1371F2181AA000EBC3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B955E13B1F2181AA000EBC3F /* PBXTargetDependency */,
+			);
+			name = DemoIconPaletteUITests;
+			productName = DemoIconPaletteUITests;
+			productReference = B955E1391F2181AA000EBC3F /* DemoIconPaletteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B955E1121F2181AA000EBC3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = justme;
+				TargetAttributes = {
+					B955E1191F2181AA000EBC3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JV9465L7Q4;
+						ProvisioningStyle = Automatic;
+					};
+					B955E12D1F2181AA000EBC3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JV9465L7Q4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B955E1191F2181AA000EBC3F;
+					};
+					B955E1381F2181AA000EBC3F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JV9465L7Q4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B955E1191F2181AA000EBC3F;
+					};
+				};
+			};
+			buildConfigurationList = B955E1151F2181AA000EBC3F /* Build configuration list for PBXProject "DemoIconPalette" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B955E1111F2181AA000EBC3F;
+			productRefGroup = B955E11B1F2181AA000EBC3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B955E1191F2181AA000EBC3F /* DemoIconPalette */,
+				B955E12D1F2181AA000EBC3F /* DemoIconPaletteTests */,
+				B955E1381F2181AA000EBC3F /* DemoIconPaletteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B955E1181F2181AA000EBC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955E1281F2181AA000EBC3F /* LaunchScreen.storyboard in Resources */,
+				B955E1251F2181AA000EBC3F /* Assets.xcassets in Resources */,
+				B955E1231F2181AA000EBC3F /* Main.storyboard in Resources */,
+				B955E1571F2183B6000EBC3F /* FontAwesome.ttf in Resources */,
+				B955E1581F2183B6000EBC3F /* FontAwesomeHome.ttx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955E12C1F2181AA000EBC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955E1371F2181AA000EBC3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B955E1161F2181AA000EBC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955E15A1F2183B6000EBC3F /* IconData.swift in Sources */,
+				B955E15C1F2183B6000EBC3F /* PopupView.swift in Sources */,
+				B955E1551F2183B6000EBC3F /* ButtonDialog.swift in Sources */,
+				B955E1201F2181AA000EBC3F /* ViewController.swift in Sources */,
+				B955E1591F2183B6000EBC3F /* FontAwesomeWrapper.swift in Sources */,
+				B955E15B1F2183B6000EBC3F /* PaletteProviderProtocol.swift in Sources */,
+				B955E11E1F2181AA000EBC3F /* AppDelegate.swift in Sources */,
+				B955E15D1F2183B6000EBC3F /* ScreenPalette.swift in Sources */,
+				B955E1561F2183B6000EBC3F /* ButtonPaletteController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955E12A1F2181AA000EBC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955E1331F2181AA000EBC3F /* DemoIconPaletteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B955E1351F2181AA000EBC3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B955E13E1F2181AA000EBC3F /* DemoIconPaletteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B955E1301F2181AA000EBC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B955E1191F2181AA000EBC3F /* DemoIconPalette */;
+			targetProxy = B955E12F1F2181AA000EBC3F /* PBXContainerItemProxy */;
+		};
+		B955E13B1F2181AA000EBC3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B955E1191F2181AA000EBC3F /* DemoIconPalette */;
+			targetProxy = B955E13A1F2181AA000EBC3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B955E1211F2181AA000EBC3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B955E1221F2181AA000EBC3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B955E1261F2181AA000EBC3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B955E1271F2181AA000EBC3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B955E1401F2181AA000EBC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B955E1411F2181AA000EBC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B955E1431F2181AA000EBC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JV9465L7Q4;
+				INFOPLIST_FILE = DemoIconPalette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevyesoft.DemoIconPalette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B955E1441F2181AA000EBC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JV9465L7Q4;
+				INFOPLIST_FILE = DemoIconPalette/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevyesoft.DemoIconPalette;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B955E1461F2181AA000EBC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JV9465L7Q4;
+				INFOPLIST_FILE = DemoIconPaletteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevyesoft.DemoIconPaletteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoIconPalette.app/DemoIconPalette";
+			};
+			name = Debug;
+		};
+		B955E1471F2181AA000EBC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JV9465L7Q4;
+				INFOPLIST_FILE = DemoIconPaletteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevyesoft.DemoIconPaletteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoIconPalette.app/DemoIconPalette";
+			};
+			name = Release;
+		};
+		B955E1491F2181AA000EBC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JV9465L7Q4;
+				INFOPLIST_FILE = DemoIconPaletteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevyesoft.DemoIconPaletteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DemoIconPalette;
+			};
+			name = Debug;
+		};
+		B955E14A1F2181AA000EBC3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = JV9465L7Q4;
+				INFOPLIST_FILE = DemoIconPaletteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevyesoft.DemoIconPaletteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DemoIconPalette;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B955E1151F2181AA000EBC3F /* Build configuration list for PBXProject "DemoIconPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B955E1401F2181AA000EBC3F /* Debug */,
+				B955E1411F2181AA000EBC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B955E1421F2181AA000EBC3F /* Build configuration list for PBXNativeTarget "DemoIconPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B955E1431F2181AA000EBC3F /* Debug */,
+				B955E1441F2181AA000EBC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B955E1451F2181AA000EBC3F /* Build configuration list for PBXNativeTarget "DemoIconPaletteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B955E1461F2181AA000EBC3F /* Debug */,
+				B955E1471F2181AA000EBC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B955E1481F2181AA000EBC3F /* Build configuration list for PBXNativeTarget "DemoIconPaletteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B955E1491F2181AA000EBC3F /* Debug */,
+				B955E14A1F2181AA000EBC3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B955E1121F2181AA000EBC3F /* Project object */;
+}
